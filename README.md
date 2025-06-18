@@ -38,14 +38,18 @@ api_key: "your-secret-api-key"
 confidence_threshold: 0.85
 You can modify this file without changing the code.
 
-**Setup
+**Setup**
 Install dependencies locally:
 
 bash
-Copy
-Edit
 pip install -r requirements.txt
 Make sure the config.yml file contains your AI API credentials and parameters.
 
 Push the repository to GitHub – all actions will trigger automatically on schedule or PR events.
 
+**Notes**
+Ensure your AI API supports the expected input/output format.
+
+Only suggestions above the confidence threshold will be posted to avoid noise.
+
+You can trigger syntax tree updates manually using the "Run workflow" option on GitHub.

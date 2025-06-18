@@ -1,0 +1,10 @@
+{
+  "type": "Module",
+  "body": [
+    {
+      "type": "FunctionDef",
+      "name": "main",
+      "body": []
+    }
+  ]
+}

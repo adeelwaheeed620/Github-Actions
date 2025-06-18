@@ -1,6 +1,3 @@
-# Configuration for linters or future extensions
-linting:
-  rules:
-    max-line-length: 120
-    ignore:
-      - E501
+ai_api_url: "https://your-ai-api.com/analyze"
+ai_api_key: "your_api_key_here"
+confidence_threshold: 0.8

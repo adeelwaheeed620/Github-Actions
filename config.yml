@@ -1,0 +1,6 @@
+# Configuration for linters or future extensions
+linting:
+  rules:
+    max-line-length: 120
+    ignore:
+      - E501
